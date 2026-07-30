@@ -1,22 +1,22 @@
 # SAP Accounts Receivable to Snowflake Pipeline
 
-## 🚀 Projenin Amacı (Project Overview)
-Bu projenin amacı, büyük ölçekli kurumsal sistemlerde (SAP) tutulan kritik finansal verileri (Alacak Hesapları - Accounts Receivable), modern bulut veri ambarı olan **Snowflake**'e güvenli ve ölçeklenebilir bir şekilde taşımaktır. Süreç, tamamen bulut tabanlı ve sıfır yerel kurulum gerektirecek şekilde tasarlanmıştır.
+## 🚀 Project Overview
+The purpose of this project is to securely and scalably migrate critical financial data (Accounts Receivable) from large-scale enterprise systems (**SAP**) to a modern cloud data warehouse (**Snowflake**). The entire workflow is designed to be cloud-based, requiring zero local software installations.
 
-## 🛠️ Kullanılan Araçlar & Teknolojiler (Tech Stack)
-- **Source (Kaynak):** SAP (Financial Accounting / Accounts Receivable)
+## 🛠️ Tech Stack
+- **Source:** SAP (Financial Accounting / Accounts Receivable)
 - **Orchestration & ETL:** Azure Data Factory (ADF)
-- **Destination (Hedef Veri Ambarı):** Snowflake
+- **Destination:** Snowflake
 - **Version Control & Portfolio:** Git & GitHub
 
-## 📂 Proje Mimarisi ve Klasör Yapısı (Repository Structure)
+## 📂 Repository Structure
 ```text
 sap-to-snowflake-pipeline/
 │
-├── README.md                 # Proje dokümantasyonu
+├── README.md                 # Project documentation
 ├── docs/
-│   └── architecture.md       # Sistem mimarisi ve akış açıklaması
+│   └── architecture.md       # System architecture and workflow description
 ├── pipelines/
-│   └── adf_pipeline_steps.md # Azure Data Factory yapılandırma adımları
+│   └── adf_pipeline_steps.md # Azure Data Factory configuration steps
 └── sql/
-    └── snowflake_Setup.sql   # Snowflake veri tabanı ve tablo oluşturma betikleri
+    └── snowflake_Setup.sql   # Snowflake database and table setup scripts
