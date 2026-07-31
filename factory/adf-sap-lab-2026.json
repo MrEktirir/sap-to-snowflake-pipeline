@@ -1,0 +1,15 @@
+{
+	"name": "adf-sap-lab-2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c24676c7-4787-4b62-bf46-168bf2d3626c",
+		"tenantId": "7ad4e186-d9e7-4fd6-b73c-e305f63dd0d2"
+	}
+}
